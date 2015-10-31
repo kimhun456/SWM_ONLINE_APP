@@ -1,5 +1,6 @@
 package org.secmem.swm_online.View;
 
+import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -20,7 +21,7 @@ import org.secmem.swm_online.GCM.QuickstartPreferences;
 import org.secmem.swm_online.GCM.RegistrationIntentService;
 import org.secmem.swm_online.R;
 
-public class GCM_Activity extends AppCompatActivity {
+public class GCM_Activity extends Activity {
 
     private static final int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
     private static final String TAG = "GCM_Activity";

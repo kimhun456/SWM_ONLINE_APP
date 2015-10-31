@@ -1,13 +1,13 @@
 package org.secmem.swm_online.View;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import org.secmem.swm_online.R;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     String url = "http://www.naver.com";
 
